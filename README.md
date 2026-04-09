@@ -28,6 +28,12 @@ This repository is being built progressively from level zero to advanced version
 - `configs/` → parameters and settings
 - `docs/` → version history and project decisions
 
-## Status
 
-Project initialized. Foundation stage in progress.
+## Environment setup
+
+```bash
+conda create -n protein-roadmap python=3.11 -y
+conda activate protein-roadmap
+conda install -y jupyterlab pandas matplotlib numpy
+pip install biopython
+conda env export --no-builds > environment.yml
