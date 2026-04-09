@@ -27,8 +27,11 @@ Before adding more rigorous solvent accessibility methods, residues are initiall
 ## Decision 009: Add a simple secondary-structure heuristic before DSSP
 A rough local-geometry heuristic is used to introduce secondary-structure reasoning early, while reserving DSSP-based annotation for a later, more rigorous stage.
 
+## Decision 010: Start mutation prioritization with an interpretable rule-based heuristic
+Before introducing energetic models or machine learning, mutation-priority logic is first defined using simple structural and residue-type heuristics so the decision process remains transparent and easy to validate. Because early secondary-structure labels are approximate, both surface-loop and surface-helix residues are allowed as first-pass high-priority candidates, while core, sheet-like, and special residues are treated conservatively.
 
-
+## Decision 011: Add simple residue chemistry classes before advanced scoring
+Basic amino-acid chemistry classes are added early so that residue selection can be interpreted in biochemical as well as structural terms before introducing more advanced energetic or machine-learning-based scoring.
 
 
 

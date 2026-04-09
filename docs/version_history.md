@@ -37,3 +37,11 @@
 - Extended residue_table.csv with approximate helix/sheet/loop annotations
 
 
+- Added first-pass mutation priority categories to the residue table
+- Combined residue environment, rough secondary structure, and special residue identity into an interpretable mutation-prioritization heuristic
+- Saved high-priority candidate residues as a separate processed output
+
+- Added residue chemistry and charge classes to the residue table
+- Enabled biochemical interpretation of structural and mutation-priority features
+
+
