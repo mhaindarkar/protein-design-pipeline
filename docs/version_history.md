@@ -41,7 +41,17 @@
 - Combined residue environment, rough secondary structure, and special residue identity into an interpretable mutation-prioritization heuristic
 - Saved high-priority candidate residues as a separate processed output
 
-- Added residue chemistry and charge classes to the residue table
-- Enabled biochemical interpretation of structural and mutation-priority features
+- Added residue summary counts derived from the annotated residue table
+- Created compact summaries for environment, secondary structure, mutation priority, and residue chemistry
+
+
+- Added a v0 completion checklist to confirm baseline outputs before design work
+- Frozen the v0 foundation stage as a reproducible checkpoint
+
+
+## v4
+- Created the design preparation notebook
+- Exported a cleaned 1LYZ structure file for downstream design use
+- Began the transition from v0 baseline analysis to real design workflow
 
 

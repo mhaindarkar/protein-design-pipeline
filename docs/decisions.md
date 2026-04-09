@@ -36,4 +36,9 @@ Basic amino-acid chemistry classes are added early so that residue selection can
 ## Decision 012: Add a compact residue summary layer before design
 A compact summary table is created from the residue-level annotations so that the overall structural and biochemical character of the target protein can be reviewed before real design workflows begin.
 
+## Decision 013: Freeze v0 as a checkpoint before design
+A formal v0 completion checklist is saved so that the structure-analysis foundation remains reproducible and reviewable before the project transitions into real design workflows.
+
+## Decision 014: Separate design preparation from structural analysis
+A dedicated design-preparation notebook and cleaned structure export are used so that downstream design workflows begin from a clearly defined and reproducible structural template.
 
