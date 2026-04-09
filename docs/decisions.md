@@ -24,5 +24,13 @@ Each residue is represented initially by its Cα coordinate because it provides 
 ## Decision 008: Use a centroid-distance heuristic as the first environment feature
 Before adding more rigorous solvent accessibility methods, residues are initially classified into approximate core and surface groups using Cα distance from the protein centroid as an interpretable geometric heuristic.
 
+## Decision 009: Add a simple secondary-structure heuristic before DSSP
+A rough local-geometry heuristic is used to introduce secondary-structure reasoning early, while reserving DSSP-based annotation for a later, more rigorous stage.
+
+
+
+
+
+
 
 

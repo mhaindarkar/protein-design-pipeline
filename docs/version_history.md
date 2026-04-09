@@ -33,3 +33,7 @@
 - Classified residues into approximate core and surface groups
 
 
+- Added rough secondary-structure labels using local Cα geometry
+- Extended residue_table.csv with approximate helix/sheet/loop annotations
+
+
