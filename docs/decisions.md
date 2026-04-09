@@ -11,3 +11,11 @@ Biopython is used to parse PDB files into structured objects instead of manually
 
 ## Decision 004: Derive sequence from structure
 The amino acid sequence is extracted directly from the PDB structure to ensure consistency between sequence and structural coordinates used in downstream analysis and design.
+
+## Decision 005: Extract sequences per chain
+Sequences are extracted separately for each chain to preserve biological correctness and support multi-chain protein systems in later stages.
+
+## Decision 006: Use a residue-level table as the main processed representation
+A residue-level CSV table is created from the structure to support filtering, annotation, scoring, and mutation logic in later stages of the project.
+
+

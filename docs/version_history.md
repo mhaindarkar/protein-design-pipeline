@@ -20,4 +20,10 @@
 - Saved sequence to data/processed
 - Established sequence–structure consistency
 
+- Improved sequence extraction to handle chains separately
+- Stored per-chain sequence files for 1LYZ
+
+- Built initial residue-level table from 1LYZ structure
+- Saved residue identity and numbering information to data/processed/residue_table.csv
+
 
