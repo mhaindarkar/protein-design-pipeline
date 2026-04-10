@@ -68,5 +68,16 @@
 - Enabled interpretable sequence-level comparison
 
 
+- Validated ProteinMPNN-generated sequences using AlphaFold (ColabFold)
+- Extracted pLDDT and pTM scores for each design
+- Created structured validation table
+
+
+- Separated native baseline from redesigned ProteinMPNN candidates
+- Selected redesigned sequences using a high-confidence, high-mutation design-aware filter
+- Ranked selected candidates using AlphaFold confidence metrics
+
+
+
 
 

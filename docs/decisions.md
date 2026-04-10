@@ -51,4 +51,8 @@ Initial sequence generation is performed with a small number of sequences and lo
 ## Decision 017: Represent designs as mutation-aware tables
 Generated sequences are converted into structured tables with mutation counts and positions to enable interpretable comparison and downstream filtering.
 
+## Decision 018: Use AlphaFold confidence metrics for early validation
+AlphaFold-derived metrics (pLDDT and pTM) are used as initial indicators of structural plausibility before applying more advanced scoring methods.
 
+## Decision 019: Use a design-aware ranking rule for high-mutation ProteinMPNN outputs
+Because ProteinMPNN produced strongly redesigned sequences rather than conservative mutants, candidate selection was based on structural confidence within the high-mutation regime instead of low mutation burden.

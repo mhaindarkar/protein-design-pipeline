@@ -1,0 +1,2 @@
+name,sequence,num_mutations,mutation_positions,mutations,id,file,plddt,ptm
+">1LYZ_clean_protein_only, score=1.6112, global_score=1.6112, fixed_chains=[], designed_chains=['A'], model_name=v_48_020, git_hash=8907e6671bfbfc92303b5f79c4b5e6ce47cdef57, seed=730",KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQATNRNTDGSTDYGILQINSRWWCNDGRTPGSRNLCNIPCSALLSSDITASVNCAKKIVSDGNGMNAWVAWRNRCKGTDVQAWIRGCRL,0,[],,seq_0,../results/alphafold/seq_0_ce6c6_scores_rank_001_alphafold2_ptm_model_5_seed_000.json,98.10682170542631,0.91
