@@ -56,3 +56,13 @@ AlphaFold-derived metrics (pLDDT and pTM) are used as initial indicators of stru
 
 ## Decision 019: Use a design-aware ranking rule for high-mutation ProteinMPNN outputs
 Because ProteinMPNN produced strongly redesigned sequences rather than conservative mutants, candidate selection was based on structural confidence within the high-mutation regime instead of low mutation burden.
+
+## Decision 020: Compare redesigned candidates explicitly against the native baseline
+Top-ranked redesigned candidates are compared directly with the native sequence so that sequence divergence and structural confidence can be interpreted relative to the original protein.
+
+## Decision 021: Analyze mutations at biochemical and structural level
+Mutation effects are interpreted using amino-acid classes and structural context before introducing energetic or ML-based scoring.
+
+## Decision 022: Introduce mutation-risk scoring before constrained redesign
+Because the redesign regime contains many non-conservative substitutions, mutation-level interpretation was extended with a rule-based risk scoring system. This helps identify structurally sensitive positions and supports future constrained redesign rounds.
+

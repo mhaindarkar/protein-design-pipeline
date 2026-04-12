@@ -72,10 +72,25 @@
 - Extracted pLDDT and pTM scores for each design
 - Created structured validation table
 
-
 - Separated native baseline from redesigned ProteinMPNN candidates
 - Selected redesigned sequences using a high-confidence, high-mutation design-aware filter
 - Ranked selected candidates using AlphaFold confidence metrics
+
+- Compared native baseline against top-ranked redesigned candidates
+- Created a compact comparison table for mutation burden and AlphaFold confidence
+- Established the first native-vs-design interpretation layer
+
+- Added mutation-level biochemical and structural analysis
+- Classified mutations into conservative and non-conservative types
+- Integrated mutation data with structural context
+
+
+- Added rule-based mutation risk scoring using biochemical and structural context
+- Summarized risky mutation positions across top redesign candidates
+- Generated candidate constraint positions for future controlled redesign
+
+
+
 
 
 
