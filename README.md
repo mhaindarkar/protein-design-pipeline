@@ -1,4 +1,4 @@
-# protein-design-pipeline
+# Protein Design Pipeline — End-to-End Computational Workflow
 
 ## Overview
 
